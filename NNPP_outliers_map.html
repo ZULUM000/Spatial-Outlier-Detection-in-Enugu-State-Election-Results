@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bffe2f197c6bf85fcdf407810edd9f71 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bffe2f197c6bf85fcdf407810edd9f71" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bffe2f197c6bf85fcdf407810edd9f71 = L.map(
+                "map_bffe2f197c6bf85fcdf407810edd9f71",
+                {
+                    center: [6.537139557988323, 7.454721630414013],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c0792174a3269da3373a95204cf785de = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c0792174a3269da3373a95204cf785de.addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+            var circle_marker_b62c1b4e6dbfe5c7e868aee63a1afcd2 = L.circleMarker(
+                [6.31592, 7.42086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_60dd889acb7c36bf7afdb24c6905245f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_948754dd6662613b2ab191ba99c0f30b = $(`<div id="html_948754dd6662613b2ab191ba99c0f30b" style="width: 100.0%; height: 100.0%;"><b>PU:</b> COMMUNITY PRIMARY SCHOOL ENUGU UMUABI <br><b>LGA:</b> UDI<br><b>Ward:</b> UMUABI<br><b>NNPP Outlier Score:</b> 13.11</div>`)[0];
+                popup_60dd889acb7c36bf7afdb24c6905245f.setContent(html_948754dd6662613b2ab191ba99c0f30b);
+            
+        
+
+        circle_marker_b62c1b4e6dbfe5c7e868aee63a1afcd2.bindPopup(popup_60dd889acb7c36bf7afdb24c6905245f)
+        ;
+
+        
+    
+    
+            var circle_marker_6d8b5f09a053df9cd4a0a34dca2a90a5 = L.circleMarker(
+                [6.53333, 7.53333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_d2b83e6f8ccebd686e534fe9d492e7f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f4e2e0b7adbff66401d5f90a6aa9c81 = $(`<div id="html_2f4e2e0b7adbff66401d5f90a6aa9c81" style="width: 100.0%; height: 100.0%;"><b>PU:</b> C.P.S. AKPOGA I<br><b>LGA:</b> ENUGU EAST<br><b>Ward:</b> MBULU-NJODO EAST<br><b>NNPP Outlier Score:</b> 11.87</div>`)[0];
+                popup_d2b83e6f8ccebd686e534fe9d492e7f6.setContent(html_2f4e2e0b7adbff66401d5f90a6aa9c81);
+            
+        
+
+        circle_marker_6d8b5f09a053df9cd4a0a34dca2a90a5.bindPopup(popup_d2b83e6f8ccebd686e534fe9d492e7f6)
+        ;
+
+        
+    
+    
+            var circle_marker_585f136d6ca717885c631e929edae178 = L.circleMarker(
+                [6.31098, 7.50902],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_8dca53efe92b59ec42c902ba6d1e45ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab7a19a268ae27e8e8f04775cd5a92b2 = $(`<div id="html_ab7a19a268ae27e8e8f04775cd5a92b2" style="width: 100.0%; height: 100.0%;"><b>PU:</b> AMAFOR OBUNO VILLAGE HALL<br><b>LGA:</b> NKANU WEST<br><b>Ward:</b> AKPUGO II<br><b>NNPP Outlier Score:</b> 10.70</div>`)[0];
+                popup_8dca53efe92b59ec42c902ba6d1e45ad.setContent(html_ab7a19a268ae27e8e8f04775cd5a92b2);
+            
+        
+
+        circle_marker_585f136d6ca717885c631e929edae178.bindPopup(popup_8dca53efe92b59ec42c902ba6d1e45ad)
+        ;
+
+        
+    
+    
+            var circle_marker_7ea425305857c86ebd391c1b7d13a131 = L.circleMarker(
+                [6.51799, 7.10382],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_c5eb0188e38b4dcf40e8eff5b15a6b0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af1c2afdb84077e418aec8b3ba49fdaf = $(`<div id="html_af1c2afdb84077e418aec8b3ba49fdaf" style="width: 100.0%; height: 100.0%;"><b>PU:</b> COMMUNITY PRIMARY SCHOOL UVURU<br><b>LGA:</b> UZO-UWANI<br><b>Ward:</b> UVURU<br><b>NNPP Outlier Score:</b> 8.46</div>`)[0];
+                popup_c5eb0188e38b4dcf40e8eff5b15a6b0e.setContent(html_af1c2afdb84077e418aec8b3ba49fdaf);
+            
+        
+
+        circle_marker_7ea425305857c86ebd391c1b7d13a131.bindPopup(popup_c5eb0188e38b4dcf40e8eff5b15a6b0e)
+        ;
+
+        
+    
+    
+            var circle_marker_ac455efe80239bfb38e51b246499fd8a = L.circleMarker(
+                [6.93368, 7.36673],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_8d2178a418a1367d8aabcb9a0ae98786 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4eeea5131f04d122b932d8312a620ce0 = $(`<div id="html_4eeea5131f04d122b932d8312a620ce0" style="width: 100.0%; height: 100.0%;"><b>PU:</b> EKE LIKKE MARKET<br><b>LGA:</b> IGBO EZE SOUTH<br><b>Ward:</b> IHEAKA (LIKKI/AKUTARA WARD)<br><b>NNPP Outlier Score:</b> 7.89</div>`)[0];
+                popup_8d2178a418a1367d8aabcb9a0ae98786.setContent(html_4eeea5131f04d122b932d8312a620ce0);
+            
+        
+
+        circle_marker_ac455efe80239bfb38e51b246499fd8a.bindPopup(popup_8d2178a418a1367d8aabcb9a0ae98786)
+        ;
+
+        
+    
+    
+            var circle_marker_6efced4bf0f065b10e3e1f809773d469 = L.circleMarker(
+                [6.73756, 7.26846],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_cc53e6620d8065eb9ad27c031f0b4870 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4677ffa7d11db17c527def2711c20c83 = $(`<div id="html_4677ffa7d11db17c527def2711c20c83" style="width: 100.0%; height: 100.0%;"><b>PU:</b> UMURUSI C.P.S. UKEHE<br><b>LGA:</b> IGBO ETITI<br><b>Ward:</b> UKEHE IV<br><b>NNPP Outlier Score:</b> 7.30</div>`)[0];
+                popup_cc53e6620d8065eb9ad27c031f0b4870.setContent(html_4677ffa7d11db17c527def2711c20c83);
+            
+        
+
+        circle_marker_6efced4bf0f065b10e3e1f809773d469.bindPopup(popup_cc53e6620d8065eb9ad27c031f0b4870)
+        ;
+
+        
+    
+    
+            var circle_marker_168e8268a946877016d8d4d6b663fc55 = L.circleMarker(
+                [6.73066, 7.69294],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_80b13b583b8e0db711b2a1cd58677262 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bb837debc8b24e597ef2a0bb1e5ac20 = $(`<div id="html_6bb837debc8b24e597ef2a0bb1e5ac20" style="width: 100.0%; height: 100.0%;"><b>PU:</b> OKPURUKPU HALL<br><b>LGA:</b> ISI UZO<br><b>Ward:</b> NEKE I<br><b>NNPP Outlier Score:</b> 6.62</div>`)[0];
+                popup_80b13b583b8e0db711b2a1cd58677262.setContent(html_6bb837debc8b24e597ef2a0bb1e5ac20);
+            
+        
+
+        circle_marker_168e8268a946877016d8d4d6b663fc55.bindPopup(popup_80b13b583b8e0db711b2a1cd58677262)
+        ;
+
+        
+    
+    
+            var circle_marker_e9faa3dc81898d40ae15357e54f9935e = L.circleMarker(
+                [6.44476, 7.53521],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_fecceaae4233ab570aa477423ce67ca1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4dbfd8c2c0a062d64c8d54fa07421610 = $(`<div id="html_4dbfd8c2c0a062d64c8d54fa07421610" style="width: 100.0%; height: 100.0%;"><b>PU:</b> EKULU PRIMARY SCHOOL I<br><b>LGA:</b> ENUGU NORTH<br><b>Ward:</b> G.R.A<br><b>NNPP Outlier Score:</b> 6.48</div>`)[0];
+                popup_fecceaae4233ab570aa477423ce67ca1.setContent(html_4dbfd8c2c0a062d64c8d54fa07421610);
+            
+        
+
+        circle_marker_e9faa3dc81898d40ae15357e54f9935e.bindPopup(popup_fecceaae4233ab570aa477423ce67ca1)
+        ;
+
+        
+    
+    
+            var circle_marker_2ed9f8dfd735bff2c4b6251524a13bda = L.circleMarker(
+                [6.4817485, 7.4905289],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_a06af5aaa2044b6344fb919a4c8b396e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7a4758e057c5da0ffe4c773fccde94f = $(`<div id="html_e7a4758e057c5da0ffe4c773fccde94f" style="width: 100.0%; height: 100.0%;"><b>PU:</b> UGBO ODOGWU PRIMARY SCHOOL III<br><b>LGA:</b> ENUGU EAST<br><b>Ward:</b> TRANS-EKULU<br><b>NNPP Outlier Score:</b> 6.22</div>`)[0];
+                popup_a06af5aaa2044b6344fb919a4c8b396e.setContent(html_e7a4758e057c5da0ffe4c773fccde94f);
+            
+        
+
+        circle_marker_2ed9f8dfd735bff2c4b6251524a13bda.bindPopup(popup_a06af5aaa2044b6344fb919a4c8b396e)
+        ;
+
+        
+    
+    
+            var circle_marker_c2904ff2a25a6fab92f018269d036aa6 = L.circleMarker(
+                [6.85783, 7.39577],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_cfeb54fd5fcedb9b64bac2f36fe98134 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_357f78fa204f3e080557d12dd686a169 = $(`<div id="html_357f78fa204f3e080557d12dd686a169" style="width: 100.0%; height: 100.0%;"><b>PU:</b> COMMUNITY PRIMARY SCHOOL AKPA EDEM I<br><b>LGA:</b> NSUKKA<br><b>Ward:</b> AKPA/OZZI<br><b>NNPP Outlier Score:</b> 5.73</div>`)[0];
+                popup_cfeb54fd5fcedb9b64bac2f36fe98134.setContent(html_357f78fa204f3e080557d12dd686a169);
+            
+        
+
+        circle_marker_c2904ff2a25a6fab92f018269d036aa6.bindPopup(popup_cfeb54fd5fcedb9b64bac2f36fe98134)
+        ;
+
+        
+    
+    
+            var circle_marker_a7b92fc476aa4de67554797ae703a288 = L.circleMarker(
+                [6.85783, 7.39577],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_b5618c838a0a987d6a289a5947f14f74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc7eae5b7e701777a57bbdee990e8490 = $(`<div id="html_fc7eae5b7e701777a57bbdee990e8490" style="width: 100.0%; height: 100.0%;"><b>PU:</b> OWERRE UMUABOR<br><b>LGA:</b> NSUKKA<br><b>Ward:</b> AGBEMEBE/UMABOR<br><b>NNPP Outlier Score:</b> 5.73</div>`)[0];
+                popup_b5618c838a0a987d6a289a5947f14f74.setContent(html_fc7eae5b7e701777a57bbdee990e8490);
+            
+        
+
+        circle_marker_a7b92fc476aa4de67554797ae703a288.bindPopup(popup_b5618c838a0a987d6a289a5947f14f74)
+        ;
+
+        
+    
+    
+            var circle_marker_8562be2211d5e68ee8bd759e04def3db = L.circleMarker(
+                [6.98333, 7.45],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_0cc0e2549c7fc584fef523adaf2d97eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13aadee66ab8edfcff9cbfeed07f3ffd = $(`<div id="html_13aadee66ab8edfcff9cbfeed07f3ffd" style="width: 100.0%; height: 100.0%;"><b>PU:</b> UMUOGBO  INYI<br><b>LGA:</b> IGBO EZE NORTH<br><b>Ward:</b> ESSODO 111<br><b>NNPP Outlier Score:</b> 5.71</div>`)[0];
+                popup_0cc0e2549c7fc584fef523adaf2d97eb.setContent(html_13aadee66ab8edfcff9cbfeed07f3ffd);
+            
+        
+
+        circle_marker_8562be2211d5e68ee8bd759e04def3db.bindPopup(popup_0cc0e2549c7fc584fef523adaf2d97eb)
+        ;
+
+        
+    
+    
+            var circle_marker_0afe4ae15ecf76465beac7192940c40c = L.circleMarker(
+                [6.98333, 7.45],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_12a2f0d2a1a16fb600ad29e1ba960822 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cb50895288bcc717d8ac6c5600d837e = $(`<div id="html_0cb50895288bcc717d8ac6c5600d837e" style="width: 100.0%; height: 100.0%;"><b>PU:</b> UMUABA HALL<br><b>LGA:</b> IGBO EZE NORTH<br><b>Ward:</b> UMUITODO II<br><b>NNPP Outlier Score:</b> 5.71</div>`)[0];
+                popup_12a2f0d2a1a16fb600ad29e1ba960822.setContent(html_0cb50895288bcc717d8ac6c5600d837e);
+            
+        
+
+        circle_marker_0afe4ae15ecf76465beac7192940c40c.bindPopup(popup_12a2f0d2a1a16fb600ad29e1ba960822)
+        ;
+
+        
+    
+    
+            var circle_marker_a2249b9d4a4fb69a0b9bc16b5f78b959 = L.circleMarker(
+                [6.0722225, 7.477742],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_c83206ba1ab63997a3166fdd22467092 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37818ea5b763e2a779ff3adde5af9d63 = $(`<div id="html_37818ea5b763e2a779ff3adde5af9d63" style="width: 100.0%; height: 100.0%;"><b>PU:</b> COMM. SCHOOL ONOLI II<br><b>LGA:</b> AWGU<br><b>Ward:</b> AWGU II<br><b>NNPP Outlier Score:</b> 5.47</div>`)[0];
+                popup_c83206ba1ab63997a3166fdd22467092.setContent(html_37818ea5b763e2a779ff3adde5af9d63);
+            
+        
+
+        circle_marker_a2249b9d4a4fb69a0b9bc16b5f78b959.bindPopup(popup_c83206ba1ab63997a3166fdd22467092)
+        ;
+
+        
+    
+    
+            var circle_marker_dc333d073aed1d079798bc1fa66c22eb = L.circleMarker(
+                [6.0722225, 7.477742],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_c7a782dfc3ab372430af1e8afd08085e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b6740275317040024e3e04a359d8447 = $(`<div id="html_9b6740275317040024e3e04a359d8447" style="width: 100.0%; height: 100.0%;"><b>PU:</b> OBODO AMETA OBUOFFIA SQUARE<br><b>LGA:</b> AWGU<br><b>Ward:</b> AWGU II<br><b>NNPP Outlier Score:</b> 5.47</div>`)[0];
+                popup_c7a782dfc3ab372430af1e8afd08085e.setContent(html_9b6740275317040024e3e04a359d8447);
+            
+        
+
+        circle_marker_dc333d073aed1d079798bc1fa66c22eb.bindPopup(popup_c7a782dfc3ab372430af1e8afd08085e)
+        ;
+
+        
+    
+    
+            var circle_marker_39290b5b16970a42d9a1e5fc7772248a = L.circleMarker(
+                [6.31519, 7.62422],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_284ace6e38615238f0890b70d7905a81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92091e17674b4c5cb6cbdf4ebb4238c6 = $(`<div id="html_92091e17674b4c5cb6cbdf4ebb4238c6" style="width: 100.0%; height: 100.0%;"><b>PU:</b> C.S.S. UGBAWKA<br><b>LGA:</b> NKANU EAST<br><b>Ward:</b> UGBAWKA I<br><b>NNPP Outlier Score:</b> 5.26</div>`)[0];
+                popup_284ace6e38615238f0890b70d7905a81.setContent(html_92091e17674b4c5cb6cbdf4ebb4238c6);
+            
+        
+
+        circle_marker_39290b5b16970a42d9a1e5fc7772248a.bindPopup(popup_284ace6e38615238f0890b70d7905a81)
+        ;
+
+        
+    
+    
+            var circle_marker_7d4ebd204465378bf022ad23ecf5efcf = L.circleMarker(
+                [6.39173, 7.51096],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_47cd32a29027c35367cbcdadd4059066 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14362912d6a198f3468492b59a59a8e2 = $(`<div id="html_14362912d6a198f3468492b59a59a8e2" style="width: 100.0%; height: 100.0%;"><b>PU:</b> IDAW RIVER SECONDARY SCHOOL III<br><b>LGA:</b> ENUGU SOUTH<br><b>Ward:</b> ACHARA LAYOUT EAST<br><b>NNPP Outlier Score:</b> 5.07</div>`)[0];
+                popup_47cd32a29027c35367cbcdadd4059066.setContent(html_14362912d6a198f3468492b59a59a8e2);
+            
+        
+
+        circle_marker_7d4ebd204465378bf022ad23ecf5efcf.bindPopup(popup_47cd32a29027c35367cbcdadd4059066)
+        ;
+
+        
+    
+    
+            var circle_marker_4fa50ec3d7ad07b309c2cb76b41a659d = L.circleMarker(
+                [6.38487, 7.29142],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_9df22142243a04675591e2db18239c95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9835e53b206770452e3bd8bdad38c33c = $(`<div id="html_9835e53b206770452e3bd8bdad38c33c" style="width: 100.0%; height: 100.0%;"><b>PU:</b> ABONUZU PUBLIC SQUARE<br><b>LGA:</b> EZEAGU<br><b>Ward:</b> IMEZI OWA II<br><b>NNPP Outlier Score:</b> 4.99</div>`)[0];
+                popup_9df22142243a04675591e2db18239c95.setContent(html_9835e53b206770452e3bd8bdad38c33c);
+            
+        
+
+        circle_marker_4fa50ec3d7ad07b309c2cb76b41a659d.bindPopup(popup_9df22142243a04675591e2db18239c95)
+        ;
+
+        
+    
+    
+            var circle_marker_7d5da2a727ec8af4c6ab0e017c4cecc2 = L.circleMarker(
+                [6.4894503, 7.5227077],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_352b782c619a838f6795633a4750f559 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3bf00afc777ae979c921b16abe9e532 = $(`<div id="html_a3bf00afc777ae979c921b16abe9e532" style="width: 100.0%; height: 100.0%;"><b>PU:</b> NATIONAL GRAMMAR SCHOOL II<br><b>LGA:</b> ENUGU EAST<br><b>Ward:</b> ABAKPA I<br><b>NNPP Outlier Score:</b> 4.97</div>`)[0];
+                popup_352b782c619a838f6795633a4750f559.setContent(html_a3bf00afc777ae979c921b16abe9e532);
+            
+        
+
+        circle_marker_7d5da2a727ec8af4c6ab0e017c4cecc2.bindPopup(popup_352b782c619a838f6795633a4750f559)
+        ;
+
+        
+    
+    
+            var circle_marker_452432fd18da49c81aecb9751cab75d5 = L.circleMarker(
+                [6.06155, 7.59137],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bffe2f197c6bf85fcdf407810edd9f71);
+        
+    
+        var popup_8da2d242472282837af717cd1d7c10be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c9d9a8a4062d2591a78251448233a9a = $(`<div id="html_1c9d9a8a4062d2591a78251448233a9a" style="width: 100.0%; height: 100.0%;"><b>PU:</b> COMM. SCHOOL EZINATO<br><b>LGA:</b> ANINRI<br><b>Ward:</b> ODUMA IV<br><b>NNPP Outlier Score:</b> 4.88</div>`)[0];
+                popup_8da2d242472282837af717cd1d7c10be.setContent(html_1c9d9a8a4062d2591a78251448233a9a);
+            
+        
+
+        circle_marker_452432fd18da49c81aecb9751cab75d5.bindPopup(popup_8da2d242472282837af717cd1d7c10be)
+        ;
+
+        
+    
+</script>
+</html>
